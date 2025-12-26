@@ -188,3 +188,16 @@ See the [LICENSE](LICENSE) file for full details.
 **GitHub**: [https://github.com/DeveloperJarvis](https://github.com/DeveloperJarvis)
 
 For feature requests, bug reports, or contributions, please open an issue or submit a pull request.
+
+## Creating tag
+
+```bash
+# 1. Check existing tags
+git tag
+# 2. Create a valid tag
+git tag -a v1.0.0 -m "Release version 1.0.0"
+# or lightweight tag
+git tag v1.0.0
+# push tag to remote
+git push origin v1.0.0
+```
